@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Моя перша HTML-форма</h1>
+    <form <form action="https://httpbin.org/get" method="get">
+      <label for="name">Імʼя: </label>
+      <input type="text" id="name" name="name" />
+      <br />
+      <br />
+
+      <label for="birthday">Дата народження:</label>
+      <input type="date" id="birthday" name="birthday" />
+      <br />
+      <br />
+
+      <label for="email">Імейл: </label>
+      <input type="email" id="email" name="email" />
+      <br />
+      <br />
+
+      <label for="message">Повідомлення: </label>
+      <textarea name="message" id="message"></textarea>
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Ваші улюблені напої?</legend>
+        <label> <input type="checkbox" name="drink" value="Kvas" />Квас</label
+        ><br />
+        <label>
+          <input
+            type="checkbox"
+            name="drink"
+            value="Coca-Cola"
+          />Coca-Cola</label
+        ><br />
+        <label> <input type="checkbox" name="drink" value="Fanta" />Fanta</label
+        ><br />
+        <label>
+          <input type="checkbox" name="drink" value="Sprite" />Sprite</label
+        ><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Моя національність</legend>
+        <label>
+          <input type="radio" name="nationality" value="UA" />Українець</label
+        ><br />
+        <label>
+          <input type="radio" name="nationality" value="SK" />Словак</label
+        ><br />
+        <label> <input type="radio" name="nationality" value="PL" />Поляк</label
+        ><br />
+      </fieldset>
+      <br />
+      <br />
+
+      <input type="submit" value="Надіслати" />
+      <input type="reset" value="Очистити" />
+    </form>
+    <br />
+    <picture>
+      <source srcset="" media="(max-width: 468px)" />
+      <source srcset="" media="(min-width: 469px)" />
+      <img
+        src="https://picsum.photos/1000/400"
+        alt="Демонстраційне зображення"
+      />
+    </picture>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
