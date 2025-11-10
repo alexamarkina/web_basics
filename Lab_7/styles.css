@@ -130,13 +130,16 @@
  робимо все селекторами. */
 .address:nth-child(3n) {
   margin-left: 0;
+  margin-right: 0;
   background: #f0ffc1;
 }
 .address:nth-child(3n + 1) {
   margin-right: 0;
   background: #b6ffda;
 }
-
+.address:first-child {
+  margin-left: 0;
+}
 /* Checkpoint: Розміщуємо адреси у один рядок */
 
 /* 12. При наведенні миші на будь-який блок з адресою необхідно змінювати його задній фон на світло-сірий #F3F3F3  */
